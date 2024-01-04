@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:chat_app/Tabs/home.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -62,7 +61,7 @@ class Home extends StatelessWidget {
         ),
         body: TabBarView(
           children: const [
-            HomeScreen(),
+            // HomeScreen(),
             Icon(Icons.group),
             Icon(Icons.ondemand_video),
             Icon(Icons.notifications_none),
